@@ -280,9 +280,9 @@ This will create a linkdrop for `0.00284 $NEAR` and specify that once the linkdr
 In order to successfully use this contract, you should have the following installed on your machine: 
 
 
-- [NEAR account](https://docs.near.org/docs/develop/basics/create-account)
-- [rust toolchain](https://docs.near.org/docs/develop/contracts/rust/intro#installing-the-rust-toolchain)
-- [NEAR CLI](https://docs.near.org/docs/tools/near-cli#setup)
+- [NEAR account](https://docs.near.org/concepts/basics/account)
+- [rust toolchain](https://docs.near.org/develop/prerequisites)
+- [NEAR CLI](https://docs.near.org/tools/near-cli#setup)
 
 If you want to run the deploy scripts, you'll need:
 - [Node JS](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
