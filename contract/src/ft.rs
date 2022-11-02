@@ -137,6 +137,7 @@ impl LinkDropProxy {
     }
 
     #[payable]
+    #[private]
     /// self callback gets the storage balance bounds and inserts that into account data for each public key passed in
     pub fn resolve_storage_check(
         &mut self, 

@@ -286,6 +286,7 @@ impl LinkDropProxy {
     }
 
     /// self callback for simple linkdrops with no FTs, NFTs, or FCs.
+    #[private]
     pub fn on_claim_simple(
         &mut self,
         // Account ID that sent the funds for the linkdrop
@@ -322,6 +323,7 @@ impl LinkDropProxy {
     }
 
     /// self callback for FT linkdrop
+    #[private]
     pub fn on_claim_ft(
         &mut self, 
         // Account ID that claimed the linkdrop
@@ -452,6 +454,7 @@ impl LinkDropProxy {
     }
 
     /// self callback for a linkdrop loaded with an NFT
+    #[private]
     pub fn on_claim_nft(&mut self, 
         // Account ID that claimed the linkdrop
         account_id: AccountId, 
@@ -544,6 +547,7 @@ impl LinkDropProxy {
     }
 
     /// self callback checks if account was created successfully or not. If yes, refunds excess storage, sends NFTs, FTs etc..
+    #[private]
     pub fn on_claim_fc(&mut self, 
         // Account ID that claimed the linkdrop
         account_id: AccountId,
